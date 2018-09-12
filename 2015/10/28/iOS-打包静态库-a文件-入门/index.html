@@ -81,30 +81,32 @@
 
 
 
-<meta name="description" content="很久之前就想写一篇关于3D Touch的博客，因为各种原因一直到现在才开始写(其实就是懒&amp;gt;_&amp;lt;)。咳咳，趁着发呆时间赶紧来写一篇…demo请戳这里">
+<meta name="description" content="1. 制作.a1.1新建项目 –&amp;gt; Cocoa Touch Static Library">
 <meta name="keywords" content="iOS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="手把手教你如何实现3d-Touch">
-<meta property="og:url" content="http://yoursite.com/2015/10/29/3d-Touch/index.html">
+<meta property="og:title" content="iOS 打包静态库.a文件--入门">
+<meta property="og:url" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/index.html">
 <meta property="og:site_name" content="VicoV的博客">
-<meta property="og:description" content="很久之前就想写一篇关于3D Touch的博客，因为各种原因一直到现在才开始写(其实就是懒&amp;gt;_&amp;lt;)。咳咳，趁着发呆时间赶紧来写一篇…demo请戳这里">
+<meta property="og:description" content="1. 制作.a1.1新建项目 –&amp;gt; Cocoa Touch Static Library">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029104541512.jpg">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029110028849.jpg">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029110624536.jpg">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029112319649.jpg">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029112659823.jpg">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029113210112.jpg">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029140226239.gif">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029141318865.gif">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029155243726.gif">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029160817411.gif">
-<meta property="og:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029161500146.jpg">
-<meta property="og:updated_time" content="2018-09-12T10:08:28.777Z">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151027175143355.jpg">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151027180022010.jpg">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151027180717632.jpg">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151027181505547.jpg">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151027203351733.jpg">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151027203433752.jpg">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151027230138887.jpg">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151027230723090.jpg">
+<meta property="og:image" content="http://img.blog.csdn.net/20151028010607783">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151028010855293.jpg">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151028011147100.jpg">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151028012451756.jpg">
+<meta property="og:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151028011452509.jpg">
+<meta property="og:updated_time" content="2018-09-12T10:07:37.187Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="手把手教你如何实现3d-Touch">
-<meta name="twitter:description" content="很久之前就想写一篇关于3D Touch的博客，因为各种原因一直到现在才开始写(其实就是懒&amp;gt;_&amp;lt;)。咳咳，趁着发呆时间赶紧来写一篇…demo请戳这里">
-<meta name="twitter:image" content="http://yoursite.com/2015/10/29/3d-Touch/20151029104541512.jpg">
+<meta name="twitter:title" content="iOS 打包静态库.a文件--入门">
+<meta name="twitter:description" content="1. 制作.a1.1新建项目 –&amp;gt; Cocoa Touch Static Library">
+<meta name="twitter:image" content="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/20151027175143355.jpg">
 
 
 
@@ -134,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2015/10/29/3d-Touch/"/>
+  <link rel="canonical" href="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/"/>
 
 
 
 
 
-  <title>手把手教你如何实现3d-Touch | VicoV的博客</title>
+  <title>iOS 打包静态库.a文件--入门 | VicoV的博客</title>
   
 
 
@@ -279,7 +281,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2015/10/29/3d-Touch/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2015/10/28/iOS-打包静态库-a文件-入门/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="wangkun">
@@ -296,7 +298,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">手把手教你如何实现3d-Touch</h1>
+          <h1 class="post-title" itemprop="name headline">iOS 打包静态库.a文件--入门</h1>
         
 
         <div class="post-meta">
@@ -308,8 +310,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-10-29T16:19:05+08:00">
-                2015-10-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-10-28T01:17:24+08:00">
+                2015-10-28
               </time>
             
 
@@ -348,7 +350,7 @@
 
           
           
-             <span id="/2015/10/29/3d-Touch/" class="leancloud_visitors" data-flag-title="手把手教你如何实现3d-Touch">
+             <span id="/2015/10/28/iOS-打包静态库-a文件-入门/" class="leancloud_visitors" data-flag-title="iOS 打包静态库.a文件--入门">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -379,7 +381,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1.6k
+                  680
                 </span>
               
 
@@ -395,7 +397,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  6
+                  2
                 </span>
               
             </div>
@@ -416,41 +418,42 @@
       
 
       
-        <p>很久之前就想写一篇关于3D Touch的博客，因为各种原因一直到现在才开始写(其实就是懒&gt;_&lt;)。咳咳，趁着发呆时间赶紧来写一篇…<a href="https://github.com/VicoWang/3D-Touch" target="_blank" rel="noopener">demo请戳这里</a></p>
+        <h2 id="1-制作-a"><a href="#1-制作-a" class="headerlink" title="1. 制作.a"></a>1. 制作.a</h2><h5 id="1-1新建项目-–-gt-Cocoa-Touch-Static-Library"><a href="#1-1新建项目-–-gt-Cocoa-Touch-Static-Library" class="headerlink" title="1.1新建项目 –&gt; Cocoa Touch Static Library"></a>1.1新建项目 –&gt; Cocoa Touch Static Library</h5><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151027175143355.jpg">
 <a id="more"></a>
+<h5 id="1-2添加库需要包含的代码"><a href="#1-2添加库需要包含的代码" class="headerlink" title="1.2添加库需要包含的代码"></a>1.2添加库需要包含的代码</h5><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151027180022010.jpg">
+<h5 id="1-3将需要暴露的-h文件暴露出来，-m会自动编译到-a文件中"><a href="#1-3将需要暴露的-h文件暴露出来，-m会自动编译到-a文件中" class="headerlink" title="1.3将需要暴露的.h文件暴露出来，.m会自动编译到.a文件中"></a>1.3将需要暴露的.h文件暴露出来，.m会自动编译到.a文件中</h5><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151027180717632.jpg">
+<h5 id="1-4分别选择真机设备和模拟器，command-B编译，staticTest会从红色变成黑色。真机和模拟器环境下用的-a文件是分开的。"><a href="#1-4分别选择真机设备和模拟器，command-B编译，staticTest会从红色变成黑色。真机和模拟器环境下用的-a文件是分开的。" class="headerlink" title="1.4分别选择真机设备和模拟器，command + B编译，staticTest会从红色变成黑色。真机和模拟器环境下用的.a文件是分开的。"></a>1.4分别选择真机设备和模拟器，command + B编译，staticTest会从红色变成黑色。真机和模拟器环境下用的.a文件是分开的。</h5><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151027181505547.jpg">
+<h5 id="1-5在“Show-in-Finder-”，可以看到编译生成的-a-和-暴露的-h文件。"><a href="#1-5在“Show-in-Finder-”，可以看到编译生成的-a-和-暴露的-h文件。" class="headerlink" title="1.5在“Show in Finder ”，可以看到编译生成的.a 和 暴露的.h文件。"></a>1.5在“Show in Finder ”，可以看到编译生成的.a 和 暴露的.h文件。</h5><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151027203351733.jpg">
+<img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151027203433752.jpg">
 <hr>
-<p>3D Touch分为以下三大模块：<br>1.Home Screen Quick Actions<br>2.Peek and Pop<br>3.UITouch</p>
+<p>Note：</p>
+<ul>
+<li>Debug-iphoneos 文件夹里面的东西是用在真机上的</li>
+<li>Debug-iphonesimulator 文件夹里面的东西是用在模拟器上的</li>
+<li>如果 Scheme 是 Release 模式，生成的文件夹就以 Release 开头<br><strong>调试版本 VS 发布版本</strong><ul>
+<li>调试版本会包含完整的符号信息，以方便调试</li>
+<li>调试版本不会对代码进行优化</li>
+<li>发布版本不会包含完整的符号信息</li>
+<li>发布版本的执行代码是进行过优化的</li>
+<li>发布版本的大小会比调试版本的略小</li>
+<li>在执行速度方面，发布版本会更快些，但不意味着会有显著的提升</li>
+</ul>
+</li>
+</ul>
 <hr>
-<h2 id="1-Home-Screen-Quick-Actions"><a href="#1-Home-Screen-Quick-Actions" class="headerlink" title="1. Home  Screen Quick Actions"></a>1. Home  Screen Quick Actions</h2><p>重按主界面应用图标后弹出的快捷菜单，例如重按微信会出现这样的效果。<br><img src="/2015/10/29/3d-Touch/20151029104541512.jpg"><br>实现Quick Actions分为两种：静态和动态。</p>
-<h5 id="1-1-Static（静态）Quick-Actions"><a href="#1-1-Static（静态）Quick-Actions" class="headerlink" title="1.1 Static（静态）Quick Actions"></a>1.1 Static（静态）Quick Actions</h5><p>Static Quick Actions只需要我们在项目的info.plist文件中配置，在用户安装程序后就可以使用。<br>配置Static Quick Actions只需要在info.plist文件中添加如下键值。</p>
-<p>1.1.1 必填项（下面两个键值是必须设置的）:<br>UIApplicationShortcutItemType 这个键值设置一个快捷通道类型的字符串<br>UIApplicationShortcutItemTitle   这个键值设置标签的标题<br>1.1.2 选填项（下面这些键值不是必须设置的）：<br>UIApplicationShortcutItemSubtitle    设置标签的副标题<br>UIApplicationShortcutItemIconType 设置标签Icon类型<br>UIApplicationShortcutItemIconFile   设置标签的Icon文件<br>UIApplicationShortcutItemUserInfo  设置信息字典(用于传值)<br><img src="/2015/10/29/3d-Touch/20151029110028849.jpg"><br>如图配置好info.plist文件之后，运行程序，真机上测试效果如下：<br><img src="/2015/10/29/3d-Touch/20151029110624536.jpg"></p>
-<h5 id="1-2-Dynamic（动态）-Quick-Actions"><a href="#1-2-Dynamic（动态）-Quick-Actions" class="headerlink" title="1.2 Dynamic（动态） Quick Actions"></a>1.2 Dynamic（动态） Quick Actions</h5><p>Dynamic Quick Actions是我们在程序中通过代码添加，与之相关的类主要有3个：<br>UIApplicationShortcutItem 创建3DTouch action的类<br>UIMutableApplicationShortcutItem 创建可变的3DTouch action的类<br>UIApplicationShortcutIcon 创建标签中图片icon的类</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">UIApplicationShortcutIcon *icon1 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeInvitation];</span><br><span class="line">UIMutableApplicationShortcutItem *item1 = [[UIMutableApplicationShortcutItem alloc]initWithType:@&quot;1&quot; localizedTitle:@&quot;么么哒&quot;];</span><br><span class="line">item1.icon = icon1;</span><br><span class="line"></span><br><span class="line">UIApplicationShortcutIcon *icon2 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeContact];</span><br><span class="line">UIApplicationShortcutItem *item2 = [[UIApplicationShortcutItem alloc]initWithType:@&quot;2&quot; localizedTitle:@&quot;萌萌哒&quot; localizedSubtitle:@&quot;看这里是不是想到了tableView&quot; icon:icon2 userInfo:nil</span><br><span class="line">];</span><br><span class="line">application.shortcutItems = @[item1,item2];</span><br></pre></td></tr></table></figure>
-<p>我在application:didFinishLaunchingWithOptions:方法里面添加了以上代码，运行程序，真机测试的效果如下:<br><img src="/2015/10/29/3d-Touch/20151029112319649.jpg"><br>上述代码里面设置的icon不是UIImage，而是一个叫UIApplicationShortcutIcon的类。<br><img src="/2015/10/29/3d-Touch/20151029112659823.jpg"><br>API很简单吧~值得注意的是官方API里面的这句话：</p>
-<blockquote>
-<p>Icons should be square, single color, and 35x35 points, as shown in these template files and as described in Template Images in UIKit User Interface Catalog and in iOS Human Interface Guidelines.</p>
-</blockquote>
-<h5 id="1-3-Actions-被点击后的响应"><a href="#1-3-Actions-被点击后的响应" class="headerlink" title="1.3 Actions 被点击后的响应"></a>1.3 Actions 被点击后的响应</h5><p>类似推送，当我们点击Actions进入应用程序时，也可以进行一些操作，我们可以发现，在application中增加了这样一个方法：<br><img src="/2015/10/29/3d-Touch/20151029113210112.jpg"><br>当我们通过点击Actions进入app时，就会在appdelegate中调用这样一个回调，我们可以获取shortcutItem的信息进行相关逻辑操作。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler &#123;</span><br><span class="line"></span><br><span class="line">if ([shortcutItem.localizedTitle isEqualToString:@&quot;New Message&quot;])</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">UIAlertController *alertC = [UIAlertController alertControllerWithTitle:@&quot;老板&quot; message:@&quot;过来办公室，发妹子了&quot; preferredStyle:UIAlertControllerStyleAlert];</span><br><span class="line">UIAlertAction *action = [UIAlertAction actionWithTitle:@&quot;马上就来&quot; style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) &#123;</span><br><span class="line">[alertC dismissViewControllerAnimated:YES completion:nil];</span><br><span class="line">&#125;];</span><br><span class="line">[alertC addAction:action];</span><br><span class="line">[self.window.rootViewController presentViewController:alertC animated:YES completion:nil];</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">else if ([shortcutItem.localizedTitle isEqualToString:@&quot;Favorites&quot;])</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">UINavigationController *naVC = (UINavigationController *)self.window.rootViewController;</span><br><span class="line">[naVC popToRootViewControllerAnimated:NO];</span><br><span class="line">ThirdViewController *thirdVC = [[ThirdViewController alloc]init];</span><br><span class="line">[naVC pushViewController:thirdVC animated:YES];</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>我在application: performActionForShortcutItem: completionHandler:方法里面写了这样一段代码，然后通过点击外界的New Message Action进入APP，就会走第一个if里面的语句，点击外界的Favorites Action进入APP，就会走第二个if里面的语句。真机测试效果如下:<br><img src="/2015/10/29/3d-Touch/20151029140226239.gif"></p>
-<p>这里有一点需要注意：我们在app的入口函数：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;</span><br></pre></td></tr></table></figure></p>
-<p>需要进行一下判断，在luanchOptions中有个UIApplicationLaunchOptionsShortcutItemKey这样一个键，通过它，我们可以区别是否是从标签进入的APP，如果是则处理结束逻辑后，返回NO，防止处理逻辑被反复回调。</p>
+<p>当我们需要打包的.a文件里面用到了图片等资源文件。此时我们不该直接把resource文件夹拖进项目，而是建立.bundle文件，然后把图片等资源放进.bundle里面管理。<br><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151027230138887.jpg"><br><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151027230723090.jpg"><br>在其他项目中使用我们打包的.a文件时，只需要将.a文件和暴露的.h文件以及资源文件.bundle（有Xib时还需要拖Xib）拖进新项目即可使用。</p>
 <hr>
-<h2 id="2-Peek-and-Pop"><a href="#2-Peek-and-Pop" class="headerlink" title="2. Peek and Pop"></a>2. Peek and Pop</h2><p>Peek and Pop实际上就是基于重按的两个操作：peek 和pop。使用场景是item的详细信息不能完全展示出来时，通过3D Touch来预览以及跳转至详情页。苹果在这方面的封装很严实，我们不能修改动画的样式，只能修改preview(预览)窗的高度。什么？不知道具体的效果？好吧，先带你们看一下Peek and Pop的效果。<br><img src="/2015/10/29/3d-Touch/20151029141318865.gif"></p>
-<p>2.1 Peek<br>在第一次重按item时触发的操作，会弹出预览框。弹出预览框后，如果这时松手，那么预览框也会随即消失。<br>2.2 Pop<br>Peek操作完成后不松手，再次重按，就可以跳转至详情页了。在跳转至详情页的过程中，我们还可以看到一个轻微的纵向弹性动画。</p>
-<p>看完了Peek and Pop 我们就来简单的实现一下吧。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//首先接受代理</span><br><span class="line">@interface ForthTableViewController () &lt;UIViewControllerPreviewingDelegate&gt;</span><br></pre></td></tr></table></figure></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">//然后在viewDidLoad里面注册一下registerForPreviewingWithDelegate:sourceView:</span><br><span class="line">- (void)viewDidLoad &#123;</span><br><span class="line">[super viewDidLoad];</span><br><span class="line"></span><br><span class="line">//判断是否支持3D Touch，如果支持则需要注册一下</span><br><span class="line">if (self.traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable) &#123;</span><br><span class="line">[self registerForPreviewingWithDelegate:self sourceView:self.view];</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">//实现代理方法</span><br><span class="line">//Peek手势触发，进入预览界面</span><br><span class="line">- (nullable UIViewController *)previewingContext:(id &lt;UIViewControllerPreviewing&gt;)previewingContext viewControllerForLocation:(CGPoint)location</span><br><span class="line">&#123;</span><br><span class="line">NSIndexPath *indexPath = [self.tableView indexPathForRowAtPoint:location];</span><br><span class="line">UITableViewCell *cell  = [self.tableView cellForRowAtIndexPath:indexPath];</span><br><span class="line">previewingContext.sourceRect = cell.frame;</span><br><span class="line">ThirdViewController *childVC = [[ThirdViewController alloc] init];</span><br><span class="line">UILabel *label      = [[UILabel alloc]init];</span><br><span class="line">label.text          = cell.textLabel.text;</span><br><span class="line">label.textAlignment = NSTextAlignmentCenter;</span><br><span class="line">label.textColor     = [UIColor redColor];</span><br><span class="line">childVC.view        = label;</span><br><span class="line">childVC.view.backgroundColor = [UIColor whiteColor];</span><br><span class="line">childVC.preferredContentSize = CGSizeMake(0.0f,400.0f);</span><br><span class="line"></span><br><span class="line">return childVC;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//Pop手势触发，进入详情界面</span><br><span class="line">- (void)previewingContext:(id &lt;UIViewControllerPreviewing&gt;)previewingContext commitViewController:(UIViewController *)viewControllerToCommit</span><br><span class="line">&#123;</span><br><span class="line">[self showViewController:viewControllerToCommit sender:self];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>代码写到这里，真机运行一下看看效果：<br><img src="/2015/10/29/3d-Touch/20151029155243726.gif"><br>效果看起来还不错~~^_^</p>
-<p>接下来我们想起来还有个家伙叫UIPreviewAction，它是Peek预览时上滑底部会出现的菜单。那么该如何添加预览时上滑底部的菜单呢？<br>只需要在我们创建的预览控制器(就是上方的ThirdViewController *childVC)里面重写一下如下这个方法：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">- (NSArray &lt;id &lt;UIPreviewActionItem&gt;&gt; *)previewActionItems &#123;</span><br><span class="line">UIPreviewAction *p1 = [UIPreviewAction actionWithTitle:@&quot;点我!&quot;style:UIPreviewActionStyleDefault handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) &#123;</span><br><span class="line"></span><br><span class="line">NSLog(@&quot;点击了点我!&quot;);</span><br><span class="line">&#125;];</span><br><span class="line">UIPreviewAction *p2 = [UIPreviewAction actionWithTitle:@&quot;别点我!&quot; style:UIPreviewActionStyleDefault handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) &#123;</span><br><span class="line"></span><br><span class="line">NSLog(@&quot;点击了别点我!&quot;);</span><br><span class="line">&#125;];</span><br><span class="line">NSArray *actions = @[p1,p2];</span><br><span class="line">return actions;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>我写的代码如上所示，然后直接真机跑起来看看效果：<br><img src="/2015/10/29/3d-Touch/20151029160817411.gif"></p>
+<ol>
+<li>如果想要使打包好的.a文件能同时在模拟器和真机上使用，需要将两个.a文件进行合并。在终端输入指令：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lipo -create ~/Debug-iphoneos/libstaticTest.a ~/Debug-iphonesimulator/libstaticTest.a -output ~/libstaticTest.a</span><br></pre></td></tr></table></figure>
+<p>即： lipo -create + 真机.a文件路径 + 模拟器.a文件路径 + -output + 合成.a文件的路径<br>PS：可以通过 lipo -info .a文件路径  指令查看.a的类型</p>
 <hr>
-<h2 id="3-UITouch"><a href="#3-UITouch" class="headerlink" title="3. UITouch"></a>3. UITouch</h2><p>UITouch里面多了两个API，分别是力度和最大力度。这个就可以很个性化地做一些酷炫的交互操作了！没啥好说的，touch.force和touch.maximumPossibleForce。大家可以在官方API里面很容易找到他们。看一下就哦了。<br><img src="/2015/10/29/3d-Touch/20151029161500146.jpg"></p>
-<hr>
-<blockquote>
-<p>结束语：刚开始写博客，如有疏漏或者错误之处，欢迎留言指正。</p>
-</blockquote>
+<h2 id="2-调试-a"><a href="#2-调试-a" class="headerlink" title="2. 调试.a"></a>2. 调试.a</h2><h4 id="2-1创建一个application工程，可以正常运行。"><a href="#2-1创建一个application工程，可以正常运行。" class="headerlink" title="2.1创建一个application工程，可以正常运行。"></a>2.1创建一个application工程，可以正常运行。</h4><p> <img src="http://img.blog.csdn.net/20151028010607783" alt="这里写图片描述"></p>
+<h4 id="2-2此时我们需要在这个工程里添加静态库进行调试，点击targets下面的-号，添加libriary"><a href="#2-2此时我们需要在这个工程里添加静态库进行调试，点击targets下面的-号，添加libriary" class="headerlink" title="2.2此时我们需要在这个工程里添加静态库进行调试，点击targets下面的+号，添加libriary"></a>2.2此时我们需要在这个工程里添加静态库进行调试，点击targets下面的+号，添加libriary</h4><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151028010855293.jpg">
+<h4 id="2-3此时在工程里面会出现静态库的文件夹，在此文件夹下面添加需要打包静态库的代码即可。"><a href="#2-3此时在工程里面会出现静态库的文件夹，在此文件夹下面添加需要打包静态库的代码即可。" class="headerlink" title="2.3此时在工程里面会出现静态库的文件夹，在此文件夹下面添加需要打包静态库的代码即可。"></a>2.3此时在工程里面会出现静态库的文件夹，在此文件夹下面添加需要打包静态库的代码即可。</h4><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151028011147100.jpg">
+<h4 id="2-4使用静态库，只需要将需要暴露的头文件引入project的类里。同时需要配置targets-gt-build-Phases-下的Target-Dependencies-和Link-Binary-With-Libraries-添加我们创建的静态库-a。"><a href="#2-4使用静态库，只需要将需要暴露的头文件引入project的类里。同时需要配置targets-gt-build-Phases-下的Target-Dependencies-和Link-Binary-With-Libraries-添加我们创建的静态库-a。" class="headerlink" title="2.4使用静态库，只需要将需要暴露的头文件引入project的类里。同时需要配置targets -&gt; build Phases 下的Target Dependencies 和Link Binary With Libraries 添加我们创建的静态库.a。"></a>2.4使用静态库，只需要将需要暴露的头文件引入project的类里。同时需要配置targets -&gt; build Phases 下的Target Dependencies 和Link Binary With Libraries 添加我们创建的静态库.a。</h4><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151028012451756.jpg">
+<h4 id="2-5打包静态库只需要选中静态库编译即可。具体打包方法同上。"><a href="#2-5打包静态库只需要选中静态库编译即可。具体打包方法同上。" class="headerlink" title="2.5打包静态库只需要选中静态库编译即可。具体打包方法同上。"></a>2.5打包静态库只需要选中静态库编译即可。具体打包方法同上。</h4><img src="/2015/10/28/iOS-打包静态库-a文件-入门/20151028011452509.jpg">
 
       
     </div>
@@ -481,8 +484,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/10/28/iOS-打包静态库-a文件-入门/" rel="next" title="iOS 打包静态库.a文件--入门">
-                <i class="fa fa-chevron-left"></i> iOS 打包静态库.a文件--入门
+              <a href="/2015/08/10/关于升级Xcode版本后插件不能用的问题解决/" rel="next" title="关于升级Xcode版本后插件不能用的问题解决">
+                <i class="fa fa-chevron-left"></i> 关于升级Xcode版本后插件不能用的问题解决
               </a>
             
           </div>
@@ -491,8 +494,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/12/15/CocoaPods入门-小白篇/" rel="prev" title="CocoaPods入门 --小白篇">
-                CocoaPods入门 --小白篇 <i class="fa fa-chevron-right"></i>
+              <a href="/2015/10/29/3d-Touch/" rel="prev" title="手把手教你如何实现3d-Touch">
+                手把手教你如何实现3d-Touch <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -640,7 +643,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Home-Screen-Quick-Actions"><span class="nav-text">1. Home  Screen Quick Actions</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-1-Static（静态）Quick-Actions"><span class="nav-text">1.1 Static（静态）Quick Actions</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-2-Dynamic（动态）-Quick-Actions"><span class="nav-text">1.2 Dynamic（动态） Quick Actions</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-3-Actions-被点击后的响应"><span class="nav-text">1.3 Actions 被点击后的响应</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Peek-and-Pop"><span class="nav-text">2. Peek and Pop</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-UITouch"><span class="nav-text">3. UITouch</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-制作-a"><span class="nav-text">1. 制作.a</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-1新建项目-–-gt-Cocoa-Touch-Static-Library"><span class="nav-text">1.1新建项目 –&gt; Cocoa Touch Static Library</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-2添加库需要包含的代码"><span class="nav-text">1.2添加库需要包含的代码</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-3将需要暴露的-h文件暴露出来，-m会自动编译到-a文件中"><span class="nav-text">1.3将需要暴露的.h文件暴露出来，.m会自动编译到.a文件中</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-4分别选择真机设备和模拟器，command-B编译，staticTest会从红色变成黑色。真机和模拟器环境下用的-a文件是分开的。"><span class="nav-text">1.4分别选择真机设备和模拟器，command + B编译，staticTest会从红色变成黑色。真机和模拟器环境下用的.a文件是分开的。</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-5在“Show-in-Finder-”，可以看到编译生成的-a-和-暴露的-h文件。"><span class="nav-text">1.5在“Show in Finder ”，可以看到编译生成的.a 和 暴露的.h文件。</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-调试-a"><span class="nav-text">2. 调试.a</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1创建一个application工程，可以正常运行。"><span class="nav-text">2.1创建一个application工程，可以正常运行。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2此时我们需要在这个工程里添加静态库进行调试，点击targets下面的-号，添加libriary"><span class="nav-text">2.2此时我们需要在这个工程里添加静态库进行调试，点击targets下面的+号，添加libriary</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3此时在工程里面会出现静态库的文件夹，在此文件夹下面添加需要打包静态库的代码即可。"><span class="nav-text">2.3此时在工程里面会出现静态库的文件夹，在此文件夹下面添加需要打包静态库的代码即可。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-4使用静态库，只需要将需要暴露的头文件引入project的类里。同时需要配置targets-gt-build-Phases-下的Target-Dependencies-和Link-Binary-With-Libraries-添加我们创建的静态库-a。"><span class="nav-text">2.4使用静态库，只需要将需要暴露的头文件引入project的类里。同时需要配置targets -&gt; build Phases 下的Target Dependencies 和Link Binary With Libraries 添加我们创建的静态库.a。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-5打包静态库只需要选中静态库编译即可。具体打包方法同上。"><span class="nav-text">2.5打包静态库只需要选中静态库编译即可。具体打包方法同上。</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
