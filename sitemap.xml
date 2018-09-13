@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2018-09-13T01:49:06.196Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2018-09-13T01:48:54.132Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2018-09-13T01:48:34.682Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2015/12/15/CocoaPods%E5%85%A5%E9%97%A8-%E5%B0%8F%E7%99%BD%E7%AF%87/</loc>
     
     <lastmod>2018-09-12T10:18:23.244Z</lastmod>
@@ -26,27 +47,6 @@
     <loc>http://yoursite.com/2015/08/10/%E5%85%B3%E4%BA%8E%E5%8D%87%E7%BA%A7Xcode%E7%89%88%E6%9C%AC%E5%90%8E%E6%8F%92%E4%BB%B6%E4%B8%8D%E8%83%BD%E7%94%A8%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</loc>
     
     <lastmod>2018-09-12T09:54:19.120Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
-    
-    <lastmod>2018-09-12T07:38:05.978Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
-    
-    <lastmod>2018-09-12T07:36:24.539Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2018-09-12T07:35:55.951Z</lastmod>
     
   </url>
   
