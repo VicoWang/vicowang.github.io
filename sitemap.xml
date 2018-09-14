@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://vicowang.github.io/2016/10/14/Xcode%E5%85%B3%E9%97%AD%E7%83%A6%E4%BA%BA%E7%9A%84%E8%AD%A6%E5%91%8A/</loc>
+    
+    <lastmod>2018-09-14T01:32:22.137Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://vicowang.github.io/2015/12/15/CocoaPods%E5%85%A5%E9%97%A8-%E5%B0%8F%E7%99%BD%E7%AF%87/</loc>
+    
+    <lastmod>2018-09-14T01:30:37.762Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://vicowang.github.io/tags/index.html</loc>
     
     <lastmod>2018-09-13T01:49:06.196Z</lastmod>
@@ -19,13 +33,6 @@
     <loc>http://vicowang.github.io/about/index.html</loc>
     
     <lastmod>2018-09-13T01:48:34.682Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://vicowang.github.io/2015/12/15/CocoaPods%E5%85%A5%E9%97%A8-%E5%B0%8F%E7%99%BD%E7%AF%87/</loc>
-    
-    <lastmod>2018-09-12T10:18:23.244Z</lastmod>
     
   </url>
   
